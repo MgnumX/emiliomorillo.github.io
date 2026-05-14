@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@theme {
+  --font-mono: 'JetBrains Mono', monospace;
+  --font-sans: 'DM Sans', sans-serif;
+  
+  --color-background: #0d1117;
+  --color-foreground: #c9d1d9;
+  --color-gold: #ffb800;
+  --color-phosphor: #00ff41;
+  --color-phosphor-dim: rgba(0, 255, 65, 0.4);
+}
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-foreground);
+  font-family: var(--font-sans);
+}
+
+/* CRT and Scanlines */
+.scanlines {
+  background: linear-gradient(to bottom, rgba(255,255,255,0), rgba(255,255,255,0) 50%, rgba(0,0,0,0.1) 50%, rgba(0,0,0,0.1));
+  background-size: 100% 4px;
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  pointer-events: none;
+  z-index: 50;
+}
+
+.phosphor-glow {
+  text-shadow: 0 0 10px var(--color-phosphor-dim);
+}

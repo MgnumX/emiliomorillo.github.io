@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "title": "Gaming BI Dashboard",
+    "date": "2026-05-06",
+    "summary": "Portfolio Project: BI Dashboard for Global Video Game Sales.",
+    "tags": ["Python", "BI", "DataViz"]
+  },
+  {
+    "id": 2,
+    "title": "E-Commerce Analytics Portfolio",
+    "date": "2026-05-06",
+    "summary": "Brutalist data analytics portfolio featuring Advanced SQL, Python & Jupyter EDA on E-Commerce datasets.",
+    "tags": ["Python", "SQL", "EDA"]
+  },
+  {
+    "id": 3,
+    "title": "Retail KPI Dashboard",
+    "date": "2026-05-05",
+    "summary": "Synthetic retail data generator + interactive KPI dashboard built with Python, Pandas and Plotly. Zero server dependencies.",
+    "tags": ["HTML", "Pandas", "Plotly"]
+  }
+]
